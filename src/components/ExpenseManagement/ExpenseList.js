@@ -60,6 +60,7 @@ export default function ExpenseList() {
         columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
+        loading={state.loading}
       />
     </div>
   )
